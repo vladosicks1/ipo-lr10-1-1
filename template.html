@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Красивая таблица</title>
+    <style>
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #dddddd;
+        }
+        th {
+            background-color: #708090;
+            color: white;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hacker News</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>№</th>
+          <th>Название</th>
+          <th>Комментарии</th>
+        </tr>
+      </thead>
+      <bodytable id="bodytable">
+  
+      </bodytable>
+    </table>
+    <p><a href="https://news.ycombinator.com/">Оригинальный сайт</a></p>
+  </body>
+</html>
